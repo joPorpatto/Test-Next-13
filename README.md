@@ -33,3 +33,5 @@ npx prisma generate
 # Prod
 
 # Stage
+
+#### migración a NEXT14
