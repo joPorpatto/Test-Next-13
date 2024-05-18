@@ -2,8 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { CiLogout } from "react-icons/ci";
 import {
+  IoBasketOutline,
   IoCalendarOutline,
   IoCheckboxOutline,
+  IoCodeWorkingSharp,
   IoListOutline,
 } from "react-icons/io5";
 import { SidebarItem } from "./SidebarItem";
@@ -23,6 +25,16 @@ const menuItems = [
     icon: <IoListOutline />,
     title: "Server Actions",
     path: "/dashboard/server-todos",
+  },
+  {
+    icon: <IoCodeWorkingSharp />,
+    title: "Cookies",
+    path: "/dashboard/cookies",
+  },
+  {
+    icon: <IoBasketOutline />,
+    title: "Productos",
+    path: "/dashboard/products",
   },
 ];
 
